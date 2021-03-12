@@ -14,7 +14,7 @@ int main()
     // int value = 2;
     // int &refValue = value;
     int value = 2,&refValue = value;
-
+    ++refValue;
     std::cout<<refValue<<std::endl;
     return 0;
 }
